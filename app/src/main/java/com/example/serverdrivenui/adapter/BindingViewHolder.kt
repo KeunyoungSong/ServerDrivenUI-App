@@ -1,7 +1,8 @@
-package com.example.serverdrivenui
+package com.example.serverdrivenui.adapter
 
 import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
+import com.example.serverdrivenui.BR
 import com.example.serverdrivenui.model.ListItem
 
 abstract class BindingViewHolder<VB : ViewDataBinding>(

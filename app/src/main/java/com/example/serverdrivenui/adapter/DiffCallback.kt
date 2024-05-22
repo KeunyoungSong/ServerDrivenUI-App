@@ -1,4 +1,4 @@
-package com.example.serverdrivenui
+package com.example.serverdrivenui.adapter
 
 import androidx.recyclerview.widget.DiffUtil
 import com.example.serverdrivenui.model.ListItem

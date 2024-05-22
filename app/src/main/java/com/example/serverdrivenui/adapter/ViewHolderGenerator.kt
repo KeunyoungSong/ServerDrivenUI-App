@@ -1,4 +1,4 @@
-package com.example.serverdrivenui
+package com.example.serverdrivenui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -14,13 +14,13 @@ object ViewHolderGenerator {
     fun get(
         parent: ViewGroup,
         viewType: Int
-    ): BindingViewHolder<*>{
+    ): BindingViewHolder<*> {
         return when(viewType){
             else -> ItemViewHolder(parent.toBinding())
         }
     }
 
-    class ItemViewHolder(binding:ItemEmptyBinding):BindingViewHolder<ItemEmptyBinding>(binding)
+    class ItemViewHolder(binding:ItemEmptyBinding): BindingViewHolder<ItemEmptyBinding>(binding)
 
     /**
      * 이 함수는 제네릭 리플렉션을 사용하여 ViewBinding 객체를 생성합니다.

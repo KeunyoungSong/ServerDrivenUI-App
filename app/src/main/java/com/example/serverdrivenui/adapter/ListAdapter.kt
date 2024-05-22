@@ -1,4 +1,4 @@
-package com.example.serverdrivenui
+package com.example.serverdrivenui.adapter
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
