@@ -1,4 +1,4 @@
-package com.example.serverdrivenui
+package com.example.serverdrivenui.remote
 
 import com.example.serverdrivenui.model.NetworkResponse
 import retrofit2.http.GET

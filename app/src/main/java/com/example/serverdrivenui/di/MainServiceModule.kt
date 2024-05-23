@@ -1,6 +1,6 @@
 package com.example.serverdrivenui.di
 
-import com.example.serverdrivenui.MainService
+import com.example.serverdrivenui.remote.MainService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -14,5 +14,5 @@ object MainServiceModule {
 
     @Provides
     @Singleton
-    fun provideMainService(retrofit: Retrofit) :MainService = retrofit.create(MainService::class.java)
+    fun provideMainService(retrofit: Retrofit) : MainService = retrofit.create(MainService::class.java)
 }
