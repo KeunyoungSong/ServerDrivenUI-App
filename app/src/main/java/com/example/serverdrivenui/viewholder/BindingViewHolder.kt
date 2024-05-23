@@ -1,4 +1,4 @@
-package com.example.serverdrivenui.adapter
+package com.example.serverdrivenui.viewholder
 
 import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView

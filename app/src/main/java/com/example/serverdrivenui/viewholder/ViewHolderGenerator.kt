@@ -1,4 +1,4 @@
-package com.example.serverdrivenui.adapter
+package com.example.serverdrivenui.viewholder
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
