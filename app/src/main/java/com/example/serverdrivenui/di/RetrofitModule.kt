@@ -1,5 +1,7 @@
 package com.example.serverdrivenui.di
 
+import com.example.serverdrivenui.databinding.model.ListItem
+import com.example.serverdrivenui.remote.ListItemDeserializer
 import com.google.gson.GsonBuilder
 import dagger.Module
 import dagger.Provides
@@ -19,7 +21,7 @@ object RetrofitModule {
     @Singleton
     fun providesConverterFactory(): GsonConverterFactory {
         return GsonConverterFactory.create(
-            GsonBuilder().create()
+            GsonBuilder().registerTypeAdapter(ListItem::class.java, ListItemDeserializer()).create()
         )
     }
 
