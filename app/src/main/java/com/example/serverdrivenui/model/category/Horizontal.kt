@@ -1,13 +1,12 @@
-package com.example.serverdrivenui.model.viewtypeholder
+package com.example.serverdrivenui.model.category
 
 import com.example.serverdrivenui.model.ListItem
 import com.example.serverdrivenui.model.ViewType
 
-data class FullAd(
+data class Horizontal(
     val title: String,
-    val imageUrl: String,
-    val button: String? = null
+    val items: List<ListItem>
 ) : ListItem {
     override val viewType: ViewType
-        get() = ViewType.FULL_AD
+        get() = ViewType.HORIZONTAL
 }

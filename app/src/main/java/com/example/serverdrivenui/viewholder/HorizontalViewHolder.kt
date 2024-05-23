@@ -3,7 +3,7 @@ package com.example.serverdrivenui.viewholder
 import com.example.serverdrivenui.adapter.ListAdapter
 import com.example.serverdrivenui.databinding.ItemHorizontalBinding
 import com.example.serverdrivenui.model.ListItem
-import com.example.serverdrivenui.model.viewtypeholder.Horizontal
+import com.example.serverdrivenui.model.category.Horizontal
 
 class HorizontalViewHolder(
     private val binding:ItemHorizontalBinding

@@ -1,4 +1,4 @@
-package com.example.serverdrivenui.model.viewtypeholder
+package com.example.serverdrivenui.model.category
 
 import com.example.serverdrivenui.model.ListItem
 import com.example.serverdrivenui.model.ViewType
