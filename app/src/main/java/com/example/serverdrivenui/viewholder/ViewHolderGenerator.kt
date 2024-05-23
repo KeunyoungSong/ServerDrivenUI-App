@@ -5,6 +5,9 @@ import android.view.ViewGroup
 import androidx.viewbinding.ViewBinding
 import com.example.serverdrivenui.databinding.ItemEmptyBinding
 import com.example.serverdrivenui.model.ViewType
+import com.example.serverdrivenui.viewholder.category.FullAdViewHolder
+import com.example.serverdrivenui.viewholder.category.HorizontalViewHolder
+import com.example.serverdrivenui.viewholder.category.ViewPagerViewHolder
 
 object ViewHolderGenerator {
 
