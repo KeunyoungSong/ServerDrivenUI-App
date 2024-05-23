@@ -11,11 +11,19 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
+import javax.inject.Named
 import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
 object RetrofitModule {
+
+    @Provides
+    @Singleton
+    @Named("BaseUrl")
+    fun providesBaseUrl(): String {
+        return "https://serverdrivenui-soeaddpmlq-uc.a.run.app"
+    }
 
     @Provides
     @Singleton
@@ -42,9 +50,10 @@ object RetrofitModule {
     @Singleton
     fun providesRetrofit(
         client: OkHttpClient.Builder,
-        gsonConverterFactory: GsonConverterFactory
+        gsonConverterFactory: GsonConverterFactory,
+        @Named("BaseUrl") baseUrl:String
     ): Retrofit {
-        return Retrofit.Builder().baseUrl("BaseURL")
+        return Retrofit.Builder().baseUrl(baseUrl)
             .addConverterFactory(gsonConverterFactory)
             .client(client.build())
             .build()

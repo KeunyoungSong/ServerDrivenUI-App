@@ -6,7 +6,7 @@ import retrofit2.http.Query
 
 interface MainService {
 
-    @GET("chapter6")
+    @GET("/")
     suspend fun getList(
         @Query("page") page: Int,
         @Query("size") size: Int = 20
