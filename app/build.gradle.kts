@@ -52,7 +52,12 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.44") // Add Hilt dependency
     kapt("com.google.dagger:hilt-compiler:2.44") // Add Hilt compiler
     implementation("androidx.activity:activity-ktx:1.9.0")
+
     implementation("io.coil-kt:coil:2.4.0")
+
+    implementation("com.squareup.okhttp3:okhttp:4.10.0")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
