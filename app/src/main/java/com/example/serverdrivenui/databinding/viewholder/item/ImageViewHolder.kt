@@ -1,7 +1,7 @@
-package com.example.serverdrivenui.viewholder.item
+package com.example.serverdrivenui.databinding.viewholder.item
 
 import com.example.serverdrivenui.databinding.ItemImageBinding
-import com.example.serverdrivenui.viewholder.BindingViewHolder
+import com.example.serverdrivenui.databinding.viewholder.BindingViewHolder
 
 class ImageViewHolder(
     binding: ItemImageBinding

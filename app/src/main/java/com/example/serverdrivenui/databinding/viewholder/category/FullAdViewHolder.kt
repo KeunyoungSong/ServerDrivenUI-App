@@ -1,7 +1,7 @@
-package com.example.serverdrivenui.viewholder.category
+package com.example.serverdrivenui.databinding.viewholder.category
 
 import com.example.serverdrivenui.databinding.ItemFullAdBinding
-import com.example.serverdrivenui.viewholder.BindingViewHolder
+import com.example.serverdrivenui.databinding.viewholder.BindingViewHolder
 
 class FullAdViewHolder(
     val binding:ItemFullAdBinding

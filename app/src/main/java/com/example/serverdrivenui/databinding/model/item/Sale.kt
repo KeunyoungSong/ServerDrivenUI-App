@@ -1,7 +1,7 @@
-package com.example.serverdrivenui.model.item
+package com.example.serverdrivenui.databinding.model.item
 
-import com.example.serverdrivenui.model.ListItem
-import com.example.serverdrivenui.model.ViewType
+import com.example.serverdrivenui.databinding.model.ListItem
+import com.example.serverdrivenui.databinding.model.ViewType
 
 data class Sale(
     val imageUrl: String,

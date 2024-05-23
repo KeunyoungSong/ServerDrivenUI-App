@@ -1,10 +1,10 @@
-package com.example.serverdrivenui.viewholder.category
+package com.example.serverdrivenui.databinding.viewholder.category
 
 import com.example.serverdrivenui.adapter.ListAdapter
 import com.example.serverdrivenui.databinding.ItemHorizontalBinding
-import com.example.serverdrivenui.model.ListItem
-import com.example.serverdrivenui.model.category.Horizontal
-import com.example.serverdrivenui.viewholder.BindingViewHolder
+import com.example.serverdrivenui.databinding.model.ListItem
+import com.example.serverdrivenui.databinding.model.category.Horizontal
+import com.example.serverdrivenui.databinding.viewholder.BindingViewHolder
 
 class HorizontalViewHolder(
     private val binding:ItemHorizontalBinding

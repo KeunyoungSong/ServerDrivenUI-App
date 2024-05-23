@@ -1,4 +1,4 @@
-package com.example.serverdrivenui.model
+package com.example.serverdrivenui.databinding.model
 
 import java.io.Serializable
 

@@ -1,7 +1,7 @@
 package com.example.serverdrivenui.adapter
 
 import androidx.recyclerview.widget.DiffUtil
-import com.example.serverdrivenui.model.ListItem
+import com.example.serverdrivenui.databinding.model.ListItem
 
 class DiffCallback<T : ListItem> : DiffUtil.ItemCallback<T>() {
     override fun areItemsTheSame(oldItem: T, newItem: T): Boolean {

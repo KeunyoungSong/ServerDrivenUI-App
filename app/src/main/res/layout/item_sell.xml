@@ -7,7 +7,7 @@
 
         <variable
             name="item"
-            type="com.example.serverdrivenui.model.item.SellItem" />
+            type="com.example.serverdrivenui.databinding.model.item.SellItem" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

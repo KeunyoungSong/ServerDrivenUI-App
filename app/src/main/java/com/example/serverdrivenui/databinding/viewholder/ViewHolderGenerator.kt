@@ -1,17 +1,17 @@
-package com.example.serverdrivenui.viewholder
+package com.example.serverdrivenui.databinding.viewholder
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.viewbinding.ViewBinding
 import com.example.serverdrivenui.databinding.ItemEmptyBinding
-import com.example.serverdrivenui.model.ViewType
-import com.example.serverdrivenui.viewholder.category.FullAdViewHolder
-import com.example.serverdrivenui.viewholder.category.HorizontalViewHolder
-import com.example.serverdrivenui.viewholder.category.ViewPagerViewHolder
-import com.example.serverdrivenui.viewholder.item.CouponViewHolder
-import com.example.serverdrivenui.viewholder.item.ImageViewHolder
-import com.example.serverdrivenui.viewholder.item.SaleViewHolder
-import com.example.serverdrivenui.viewholder.item.SellItemViewHolder
+import com.example.serverdrivenui.databinding.model.ViewType
+import com.example.serverdrivenui.databinding.viewholder.category.FullAdViewHolder
+import com.example.serverdrivenui.databinding.viewholder.category.HorizontalViewHolder
+import com.example.serverdrivenui.databinding.viewholder.category.ViewPagerViewHolder
+import com.example.serverdrivenui.databinding.viewholder.item.CouponViewHolder
+import com.example.serverdrivenui.databinding.viewholder.item.ImageViewHolder
+import com.example.serverdrivenui.databinding.viewholder.item.SaleViewHolder
+import com.example.serverdrivenui.databinding.viewholder.item.SellItemViewHolder
 
 object ViewHolderGenerator {
 
