@@ -52,6 +52,7 @@ dependencies {
     implementation("com.google.dagger:hilt-android:2.44") // Add Hilt dependency
     kapt("com.google.dagger:hilt-compiler:2.44") // Add Hilt compiler
     implementation("androidx.activity:activity-ktx:1.9.0")
+    implementation("io.coil-kt:coil:2.4.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
