@@ -2,7 +2,7 @@ package com.example.serverdrivenui.adapter
 
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
-import com.example.serverdrivenui.databinding.model.ListItem
+import com.example.serverdrivenui.model.ListItem
 import com.example.serverdrivenui.databinding.viewholder.BindingViewHolder
 import com.example.serverdrivenui.databinding.viewholder.ViewHolderGenerator
 

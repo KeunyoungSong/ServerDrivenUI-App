@@ -1,11 +1,10 @@
 package com.example.serverdrivenui
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.PagingData
 import androidx.paging.cachedIn
-import com.example.serverdrivenui.databinding.model.ListItem
+import com.example.serverdrivenui.model.ListItem
 import com.example.serverdrivenui.repository.MainRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

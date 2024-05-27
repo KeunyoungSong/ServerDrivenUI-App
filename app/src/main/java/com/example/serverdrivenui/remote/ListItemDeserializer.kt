@@ -1,15 +1,15 @@
 package com.example.serverdrivenui.remote
 
-import com.example.serverdrivenui.databinding.model.ListItem
-import com.example.serverdrivenui.databinding.model.ViewType
-import com.example.serverdrivenui.databinding.model.category.Empty
-import com.example.serverdrivenui.databinding.model.category.FullAd
-import com.example.serverdrivenui.databinding.model.category.Horizontal
-import com.example.serverdrivenui.databinding.model.category.ViewPager
-import com.example.serverdrivenui.databinding.model.item.Coupon
-import com.example.serverdrivenui.databinding.model.item.Image
-import com.example.serverdrivenui.databinding.model.item.Sale
-import com.example.serverdrivenui.databinding.model.item.SellItem
+import com.example.serverdrivenui.model.ListItem
+import com.example.serverdrivenui.model.ViewType
+import com.example.serverdrivenui.model.category.Empty
+import com.example.serverdrivenui.model.category.FullAd
+import com.example.serverdrivenui.model.category.Horizontal
+import com.example.serverdrivenui.model.category.ViewPager
+import com.example.serverdrivenui.model.item.Coupon
+import com.example.serverdrivenui.model.item.Image
+import com.example.serverdrivenui.model.item.Sale
+import com.example.serverdrivenui.model.item.SellItem
 import com.google.gson.GsonBuilder
 import com.google.gson.JsonDeserializationContext
 import com.google.gson.JsonDeserializer

@@ -1,6 +1,5 @@
 package com.example.serverdrivenui.model
 
-import com.example.serverdrivenui.databinding.model.ListItem
 import com.google.gson.annotations.SerializedName
 
 data class NetworkResponse(

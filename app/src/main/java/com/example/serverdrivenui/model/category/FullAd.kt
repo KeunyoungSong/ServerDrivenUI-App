@@ -1,7 +1,7 @@
-package com.example.serverdrivenui.databinding.model.category
+package com.example.serverdrivenui.model.category
 
-import com.example.serverdrivenui.databinding.model.ListItem
-import com.example.serverdrivenui.databinding.model.ViewType
+import com.example.serverdrivenui.model.ListItem
+import com.example.serverdrivenui.model.ViewType
 
 data class FullAd(
     val title: String,

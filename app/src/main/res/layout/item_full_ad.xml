@@ -6,7 +6,7 @@
 
         <variable
             name="item"
-            type="com.example.serverdrivenui.databinding.model.category.FullAd" />
+            type="com.example.serverdrivenui.model.category.FullAd" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

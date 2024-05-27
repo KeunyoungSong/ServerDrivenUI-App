@@ -3,7 +3,7 @@ package com.example.serverdrivenui.databinding.viewholder
 import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
 import com.example.serverdrivenui.BR
-import com.example.serverdrivenui.databinding.model.ListItem
+import com.example.serverdrivenui.model.ListItem
 
 abstract class BindingViewHolder<VB : ViewDataBinding>(
     private val binding: VB

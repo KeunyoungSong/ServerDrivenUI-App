@@ -1,9 +1,8 @@
 package com.example.serverdrivenui.remote
 
-import android.util.Log
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.example.serverdrivenui.databinding.model.ListItem
+import com.example.serverdrivenui.model.ListItem
 import java.lang.Exception
 
 class MainPagingSource(private val mainService: MainService) : PagingSource<Int, ListItem>() {

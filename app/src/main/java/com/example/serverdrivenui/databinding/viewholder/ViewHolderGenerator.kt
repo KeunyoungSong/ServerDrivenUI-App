@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.viewbinding.ViewBinding
 import com.example.serverdrivenui.databinding.ItemEmptyBinding
-import com.example.serverdrivenui.databinding.model.ViewType
+import com.example.serverdrivenui.model.ViewType
 import com.example.serverdrivenui.databinding.viewholder.category.FullAdViewHolder
 import com.example.serverdrivenui.databinding.viewholder.category.HorizontalViewHolder
 import com.example.serverdrivenui.databinding.viewholder.category.ViewPagerViewHolder

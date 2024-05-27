@@ -1,6 +1,6 @@
 package com.example.serverdrivenui.di
 
-import com.example.serverdrivenui.databinding.model.ListItem
+import com.example.serverdrivenui.model.ListItem
 import com.example.serverdrivenui.remote.ListItemDeserializer
 import com.google.gson.GsonBuilder
 import dagger.Module
