@@ -12,11 +12,10 @@ enum class ViewType {
     VIEW_PAGER,
     HORIZONTAL,
     FULL_AD,
+    EMPTY,
 
     SELL_ITEM,
     IMAGE,
     SALE,
     COUPON,
-
-    EMPTY
 }

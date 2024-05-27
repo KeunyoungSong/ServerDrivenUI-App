@@ -8,6 +8,7 @@ import com.example.serverdrivenui.databinding.model.ListItem
 abstract class BindingViewHolder<VB : ViewDataBinding>(
     private val binding: VB
 ) : RecyclerView.ViewHolder(binding.root) {
+
     protected var item: ListItem? = null
 
     open fun bind(item: ListItem) {

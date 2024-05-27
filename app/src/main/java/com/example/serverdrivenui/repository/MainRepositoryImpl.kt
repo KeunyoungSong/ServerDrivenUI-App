@@ -16,9 +16,12 @@ class MainRepositoryImpl @Inject constructor(
     private val mainService: MainService
 ) : MainRepository {
 
-    override fun loadList(): Flow<PagingData<ListItem>> = Pager(config = PagingConfig(
-        pageSize = 20, enablePlaceholders = false
-    ), pagingSourceFactory = {
-        MainPagingSource(mainService)
-    }).flow
+    override fun loadList() = Pager(
+        config = PagingConfig(
+            pageSize = 20,
+            enablePlaceholders = false
+        ), pagingSourceFactory = {
+            MainPagingSource(mainService)
+        }
+    ).flow
 }

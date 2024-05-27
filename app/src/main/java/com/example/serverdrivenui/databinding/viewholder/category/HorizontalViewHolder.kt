@@ -9,6 +9,7 @@ import com.example.serverdrivenui.databinding.viewholder.BindingViewHolder
 class HorizontalViewHolder(
     private val binding:ItemHorizontalBinding
 ) : BindingViewHolder<ItemHorizontalBinding>(binding){
+
     private val adapter = ListAdapter()
 
     init {

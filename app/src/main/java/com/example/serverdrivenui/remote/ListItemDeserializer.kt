@@ -42,7 +42,7 @@ class ListItemDeserializer : JsonDeserializer<ListItem> {
                 else -> gson.fromJson(json, Empty::class.java)
             }
         } catch (e: Exception) {
-            gson.fromJson(json, Coupon::class.java)
+            gson.fromJson(json, Empty::class.java)
         }
     }
 }

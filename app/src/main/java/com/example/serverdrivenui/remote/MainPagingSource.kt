@@ -1,12 +1,13 @@
 package com.example.serverdrivenui.remote
 
+import android.util.Log
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import com.example.serverdrivenui.databinding.model.ListItem
 import java.lang.Exception
 
 class MainPagingSource(private val mainService: MainService) : PagingSource<Int, ListItem>() {
-    override fun getRefreshKey(state: PagingState<Int, ListItem>): Int? {
+    override fun getRefreshKey(state: PagingState<Int, ListItem>): Int {
         return 0
     }
 
@@ -19,7 +20,7 @@ class MainPagingSource(private val mainService: MainService) : PagingSource<Int,
             LoadResult.Page(
                 data = result.list,
                 prevKey = null,
-                nextKey = result.page.nextPage
+                nextKey = null
             )
         } catch (e: Exception) {
             LoadResult.Error(e)
