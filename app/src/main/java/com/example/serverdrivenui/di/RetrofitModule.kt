@@ -22,7 +22,7 @@ object RetrofitModule {
     @Singleton
     @Named("BaseUrl")
     fun providesBaseUrl(): String {
-        return "https://serverdrivenui-soeaddpmlq-uc.a.run.app"
+        return "https://serverdrivenui-soeaddpmlq-uc.a.run.app/"
     }
 
     @Provides
